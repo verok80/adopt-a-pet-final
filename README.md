@@ -9,7 +9,7 @@ Adopt-A-Pet-Final is React.js web application that allows to serch for pet,volun
 
 
 <h2>Features</h2>
-- PetSearch: User can search for pets based on two categories: dogs and pet, read about every pet and send the enquires.
+- PetSearch: User can search for pets based on two categories: dogs and cats, read about every pet and send the enquires.
 - User-Friendly Interface: The app features a clean and intuitive user interface that allows users to interact with the application seamlessly.
 - Responsive Design: Adopt-A-Pet-Final is build with responsive design, ensuring that the app functions and looks great on various devices.
 
