@@ -236,9 +236,15 @@ h3{
     font-family: "Poppins", serif;
   }
   .btn-inquire{
-    margin-left: 700px;
-    margin-top: 80px;
-    width: 20%;
+    margin-left: 800px;
+    font-family: "Poppins", serif;
+   color:#ffffff;
+   font-size: 20px;
+   text-decoration: none;
+   background-color:#c79288;
+   padding: 13px 40px;
+   
+  
   }
   /*Form get involved*/
   .get-involved-hands{
