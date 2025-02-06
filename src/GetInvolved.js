@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
-import imageFive from'./pet-care.png';
+import imageEleven from'./Assets/pet-care.png';
 
 const GetInvolved = () =>{
     const [formData, setFormData] = useState({
@@ -41,7 +41,7 @@ const GetInvolved = () =>{
             <div>
             <h2 className='get-involved'>Get Involved</h2>
            <p className='form-text'>Adopt a pet or volunteer at our shelter.</p>
-           <img  className="get-involved-hands"src={imageFive} width="200px" alt="icon"/>
+           <img  className="get-involved-hands"src={imageEleven} width="200px" alt="icon"/>
            </div>
         <form onSubmit={handleSubmit}>
             <label>

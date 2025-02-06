@@ -1,13 +1,8 @@
-import React from 'react';
-import { useNavigate } from "react-router-dom";
-import imageNine from './cat.png';
+import {Link} from "react-router-dom";
+import imageNine from './Assets/cat.png';
 function Services(){
 
-    const navigateTwo = useNavigate()
-  const handleInvolved =() => {
-    navigateTwo('/Get involved')
-  }
-
+  
     return<div className="services">
         <div className="services-box">
    <h2 className="services-header">Our Services</h2>
@@ -30,7 +25,9 @@ function Services(){
 <img  className="cat-picture" src={imageNine} width="400px" alt="cat"/>
 <img  className="cat-picture" src={imageNine} width="400px" alt="cat"/>
 <img  className="cat-picture" src={imageNine} width="400px" alt="cat"/>
-<button  onClick={handleInvolved} className="btn btn-services">Get Involved</button>
+<Link to="/get-involved">
+<button   className="btn btn-services">Get Involved</button>
+</Link>
     </div>
 }
 

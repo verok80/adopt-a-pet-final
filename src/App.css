@@ -3,10 +3,10 @@ body{
  
 }
 .home{
-  background-image: url(frontDog.png);
+  background-image: url(./Assets/frontDog.png);
   background-size: cover;
-   height: 100vh;
-   width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 h1{
   color: #ffffff;
@@ -44,15 +44,15 @@ h1{
 .link{
   color:#c79288;
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 10px 90px;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-size: 18px;
 }
 nav{
   display: flex;
-  justify-content: space-evenly;
   padding: 20px;
+  justify-content: space-evenly;
   font-family: "Poppins", serif;
   font-weight: 300;
   flex-wrap: wrap;
@@ -118,7 +118,7 @@ h2{
 }
 /*services*/
 .services{
-  background-image: url(paws.png);
+  background-image: url(Assets/paws.png);
   height: 150vh;
 }
 .services-box{
@@ -178,6 +178,7 @@ h3{
 .footer-nav{
   color: #c79288;
   text-decoration: underline;
+  margin-left: 300px;
 }
 
 .signature{
@@ -280,6 +281,7 @@ h3{
    .nav-links{
     display: none;
    }
+   
    .burger-btn{
     background-color: #c79288;
     border: none;
@@ -633,26 +635,31 @@ h3{
     height: 60px;
     margin-left: 270px;
     }
-.link{
+    .link{
       display: none;
   }
-nav{
-    display: flex;
-    justify-content:space-evenly;
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+ 
   }
+
 .nav-links{
-    display: none;
-    margin-top: 80px;
-    z-index: 10;
+    display:none;
+    
+  
   }
 .nav-links.show{
     border: 2px solid #c79288;
     margin: 20px;
-    padding-left: 10px;
-    padding-bottom: 30px;
+    margin-left: 12px ;
+    padding-left: 20px;
+    padding-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+  
+    
   }
 .logo{
     height: 80px;

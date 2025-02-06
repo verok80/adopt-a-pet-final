@@ -16,7 +16,7 @@ function FindAPet(){
         <Buttons filteredPet={chosenPet}/>
         <Pets anyPets= {pets}/>
        <a href='mailto: email@example.com'>
-        <button type= "submit" className="btn btn-inquire">Inquire</button>
+        <button  className="btn btn-inquire">Inquire</button>
        </a>
     </div>
     )

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { teamData } from './teamData';
-import imageThree from './right.png';
-import imageFour from './left.png';
+import imageThree from './Assets/right.png';
+import imageFour from './Assets/left.png';
 
 function Team(){
     const [member, setTeamMember] = useState(0);
