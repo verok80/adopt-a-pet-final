@@ -5,7 +5,7 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Adopt-A-Pet-Final is React.js web application that allows to serch for pet,volunteer,meet the team of the pet shelter and send inquires.
+Adopt-A-Pet-Final is React.js web application that allows to serch for pet,volonteer,meet the team of the pet shelter and send inquires.
 
 
 <h2>Features</h2>
